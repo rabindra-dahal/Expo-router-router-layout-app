@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native'
 
 const ProductList = () => {
   return (
-    <View>
+    <View style={styles.container}>
       <Text>Product List</Text>
       <Link href={'/products/1'}>Product 1</Link>
       <Link href={'/products/2'}>Product 2</Link>

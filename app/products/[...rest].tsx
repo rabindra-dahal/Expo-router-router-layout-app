@@ -5,7 +5,7 @@ import { StyleSheet, Text, View } from 'react-native';
 const CatchAllProductDetails = () => {
   const {rest} = useLocalSearchParams<{rest:string[]}>();
   return (
-    <View>
+    <View style={styles.container}>
       <Text>Catch All Product Details</Text>
       <Text>Product Details with product url = {rest.join('/')}</Text>
     </View>

@@ -5,7 +5,7 @@ import { StyleSheet, Text, View } from 'react-native';
 const ProductDetails = () => {
   const {id} = useLocalSearchParams();
   return (
-    <View>
+    <View style={styles.container}>
       <Text>ProductDetails</Text>
       <Text>Product Details with id = {id}</Text>
     </View>
