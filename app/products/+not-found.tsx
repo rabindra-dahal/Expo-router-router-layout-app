@@ -2,16 +2,16 @@ import { Link } from 'expo-router';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-const CustomNotFound = () => {
+const CustomProductNotFound = () => {
   return (
-    <View style={styles.container}>
-      <Text>Custom Not Found </Text>
+    <View style={styles.container} >
+      <Text>Product Not Found </Text>
       <Link href={'/'}>Go to Home</Link>
     </View>
   )
 }
 
-export default CustomNotFound;
+export default CustomProductNotFound;
 
 const styles = StyleSheet.create({
     container:{
