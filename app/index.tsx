@@ -12,6 +12,7 @@ export default function Index() {
     >
       <Text>Catch All Segments Example</Text>
       <Link href={'/products'}>Products</Link>
+      <Link href={'/auth/login'}>Login</Link>
       <Link href={'/missing-route'}>Missing Route</Link>
     </View>
   );
