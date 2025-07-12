@@ -1,5 +1,5 @@
-import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import React from 'react';
+import { StyleSheet, Text, View } from 'react-native';
 
 const Profile = () => {
   return (
@@ -7,9 +7,9 @@ const Profile = () => {
       <Text>My Profile Page</Text>
     </View>
   )
-}
+};
 
-export default Profile
+export default Profile;
 
 const styles = StyleSheet.create({
     container:{
@@ -17,4 +17,4 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
     }
-})
+});

@@ -9,7 +9,7 @@ const CustomNotFound = () => {
       <Link href={'/'}>Go to Home</Link>
     </View>
   )
-}
+};
 
 export default CustomNotFound;
 
@@ -20,4 +20,4 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         backgroundColor: 'red'
     }
-})
+});

@@ -1,23 +1,20 @@
-import { Link } from 'expo-router';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-const ProfileNotFound = () => {
+const About = () => {
   return (
     <View style={styles.container}>
-      <Text>Profile Not Found </Text>
-      <Link href={'/'}>Go to Home</Link>
+      <Text>About Page</Text>
     </View>
   )
 };
 
-export default ProfileNotFound;
+export default About;
 
 const styles = StyleSheet.create({
     container:{
         flex: 1,
+        justifyContent: "center",
         alignItems: 'center',
-        justifyContent: 'center',
-        backgroundColor: 'red'
     }
 });

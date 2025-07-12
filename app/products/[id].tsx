@@ -12,7 +12,7 @@ const ProductDetails = () => {
   )
 }
 
-export default ProductDetails
+export default ProductDetails;
 
 const styles = StyleSheet.create({
     container:{
@@ -20,4 +20,4 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center'
     }
-})
+});

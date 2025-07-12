@@ -12,13 +12,12 @@ const ProductList = () => {
       <Link href={'/products/best-sellers/playstation-5'}>Playstation 5 (Best Sellers)</Link>
       <Link href={'/products/deals/black-friday/playstation-5'}>Playstation 5 (Deals)</Link>
       <Link href={'/products/search/playstation-5'}>Playstation 5 (Search)</Link>
-      <Link href={'/missing-product-route'}>Missing Products</Link>
 
     </View>
   )
 }
 
-export default ProductList
+export default ProductList;
 
 const styles = StyleSheet.create({
     container: {
@@ -26,4 +25,4 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center'
     }
-})
+});
